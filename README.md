@@ -16,9 +16,9 @@ All VoCol components, even the repository engine, can be exchanged with little e
 
 The following steps are needed to setup the VoCol Environment either on a local machine or a web server.
 
-1. First, we assumed that you are using a Linux-based operating system.
+1. First, we assume that you are using a Linux-based operating system.
 1. Next, to prepare the VoCol environment, you should have the following libraries installed: Java JDK, NodeJS, NPM, Git, and Turtle-validator packages with their respective versions or higher. They are listed in section **[Required libraries and tools](https://github.com/vocol/vocol/wiki/Required-libraries-and-tools)**. 
-2. Make a new directory, in the following command-line "newFolder" is given but you are free to choose your own, then inside the new directory, clone VoCol repository as follows:
+2. Make a new directory, in the following command-line "newFolder" is given but you are free to choose your own, then inside the new directory, clone the VoCol repository as follows:
 ```
 mkdir newFolder
 cd newFolder
@@ -26,7 +26,7 @@ git clone https://github.com/vocol/vocol.git
 ```
 3. Give the required execution permissions cmd on the new directory, again, the "newFolder" is assumed here.
 ```
-chmod u+x  .
+chmod u+x  . 
 ```
 4. Enter inside "VoCol" folder and clear old saved data if any is exsit:
 ```
